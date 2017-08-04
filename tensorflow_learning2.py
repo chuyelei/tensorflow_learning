@@ -69,7 +69,7 @@ with tf.Session() as sess:
     print sess.run(accuracy,feed_dict={x:mnist.test.images,
                                        y_:mnist.test.labels,
                                        keep_prob:0.5})
-
+    print 'modify github'
 
 
 
